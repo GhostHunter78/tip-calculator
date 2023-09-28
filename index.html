@@ -42,14 +42,21 @@
             />
           </form>
         </div>
-        <p class="number-of">Number of People</p>
+        <div class="numberOf-and-errorMessage">
+          <p class="number-of">Number of People</p>
+          <p class="error-message">Can't be zero</p>
+        </div>
         <form id="fill-in">
           <div class="icon-and-input">
             <img
               class="input-icon person-icon"
               src="./assets/icons/icon-person.svg"
             />
-            <input type="number" class="bill-input" placeholder="0" />
+            <input
+              type="number"
+              class="bill-input people-input"
+              placeholder="0"
+            />
           </div>
         </form>
       </div>
@@ -71,5 +78,6 @@
         <button class="reset-button">RESET</button>
       </div>
     </div>
+    <script src="./index.js"></script>
   </body>
 </html>

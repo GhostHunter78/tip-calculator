@@ -42,6 +42,7 @@ body {
   width: 311px;
   height: 48px;
   border-radius: 5px;
+  border: none;
   background: #f3f9fa;
   padding: 6px 18px;
   color: #00474b;
@@ -132,6 +133,23 @@ input::placeholder {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+.error-message {
+  color: #e17457;
+  text-align: right;
+  font-family: Space Mono;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: none;
+}
+
+.numberOf-and-errorMessage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin-top: 32px;
 }
 
