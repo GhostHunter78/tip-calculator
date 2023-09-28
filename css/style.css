@@ -53,6 +53,7 @@ body {
   line-height: normal;
   padding-left: 41px;
   margin-top: 6px;
+  cursor: pointer;
 }
 
 input[type="number"]::-webkit-inner-spin-button,
@@ -96,7 +97,6 @@ input::placeholder {
 .tip-persentage-div {
   width: 146.631px;
   height: 48px;
-  flex-shrink: 0;
   border-radius: 5px;
   background: #00474b;
   padding: 7px 17px;
@@ -107,11 +107,14 @@ input::placeholder {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  cursor: pointer;
 }
 
 .custom-div {
   background: #f3f9fa;
   color: #547878;
+  padding: 6px 29px;
+  border: none;
 }
 
 .tips-container {
@@ -210,7 +213,7 @@ input::placeholder {
   .green-div {
     width: 100%;
     height: 100%;
-    padding: 66px 40px 40px 40px;
+    padding: 40px;
     margin-left: 48px;
   }
 
@@ -221,5 +224,24 @@ input::placeholder {
   .reset-button {
     width: 100%;
     margin-top: 105px;
+  }
+
+  .bill-input {
+    width: 379px;
+  }
+
+  .tip-persentage-div {
+    width: 117px;
+  }
+
+  .custom-div {
+    padding: 6px 14px;
+  }
+
+  .tips-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 14px;
   }
 }
