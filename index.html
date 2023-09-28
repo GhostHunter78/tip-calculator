@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/icons/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Tip Calculator</title>
+  </head>
+  <body>
+    <img class="logo" src="./assets/icons/logo.svg" />
+    <div class="white-div">
+      <div class="content">
+        <p class="bill-word">Bill</p>
+        <form id="fill-in">
+          <div class="icon-and-input">
+            <img
+              class="input-icon dollar-icon"
+              src="./assets/icons/icon-dollar.svg"
+            />
+            <input type="number" class="bill-input" placeholder="0" />
+          </div>
+        </form>
+        <p class="select-tip">Select Tip %</p>
+        <div class="tips-container">
+          <div class="tip-persentage-div">5%</div>
+          <div class="tip-persentage-div">10%</div>
+          <div class="tip-persentage-div">15%</div>
+          <div class="tip-persentage-div">25%</div>
+          <div class="tip-persentage-div">50%</div>
+          <div class="tip-persentage-div custom-div">Custom</div>
+        </div>
+        <p class="number-of">Number of People</p>
+        <form id="fill-in">
+          <div class="icon-and-input">
+            <img
+              class="input-icon person-icon"
+              src="./assets/icons/icon-person.svg"
+            />
+            <input type="number" class="bill-input" placeholder="0" />
+          </div>
+        </form>
+      </div>
+      <div class="green-div">
+        <div class="tip-amount-div">
+          <div class="tip-and-person-words">
+            <p class="tip-amount-word">Tip Amount</p>
+            <p class="person-word">/ person</p>
+          </div>
+          <p class="tip-amount-result">$0.00</p>
+        </div>
+        <div class="tip-amount-div total-div">
+          <div class="tip-and-person-words">
+            <p class="tip-amount-word">Total</p>
+            <p class="person-word">/ person</p>
+          </div>
+          <p class="tip-amount-result total-result">$0.00</p>
+        </div>
+        <button class="reset-button">RESET</button>
+      </div>
+    </div>
+  </body>
+</html>
