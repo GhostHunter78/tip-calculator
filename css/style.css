@@ -12,9 +12,7 @@ body {
   height: 100%;
   padding-top: 50px;
   flex-direction: column;
-  /* justify-content: flex-end; */
   align-items: center;
-  /* gap: 40.864px; */
   background: #c5e4e7;
 }
 
@@ -192,4 +190,36 @@ input::placeholder {
   line-height: normal;
   padding: 10px 37px;
   margin-top: 14px;
+}
+
+@media (min-width: 1440px) {
+  body {
+    padding-top: 163px;
+    padding-bottom: 239px;
+  }
+
+  .white-div {
+    width: 920px;
+    height: 100%;
+    border-radius: 25px;
+    padding: 32px 32px 32px 48px;
+    flex-direction: row;
+    margin-top: 88px;
+  }
+
+  .green-div {
+    width: 100%;
+    height: 100%;
+    padding: 66px 40px 40px 40px;
+    margin-left: 48px;
+  }
+
+  .total-div {
+    margin-top: 20px;
+  }
+
+  .reset-button {
+    width: 100%;
+    margin-top: 105px;
+  }
 }
