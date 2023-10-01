@@ -38,7 +38,7 @@ body {
   line-height: normal;
 }
 
-.bill-input {
+.inputs {
   width: 311px;
   height: 48px;
   border-radius: 5px;
@@ -95,7 +95,7 @@ input::placeholder {
   margin-top: 32px;
 }
 
-.tip-persentage-div {
+.tip-percentage-div {
   width: 146.631px;
   height: 48px;
   border-radius: 5px;
@@ -112,6 +112,19 @@ input::placeholder {
 }
 
 .custom-div {
+  width: 146.631px;
+  height: 48px;
+  border-radius: 5px;
+  background: #00474b;
+  padding: 7px 17px;
+  color: #fff;
+  text-align: center;
+  font-family: Space Mono;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
   background: #f3f9fa;
   color: #547878;
   padding: 6px 29px;
@@ -186,7 +199,7 @@ input::placeholder {
   line-height: normal;
 }
 
-.tip-amount-result {
+.result-number {
   color: #26c2ae;
   text-align: right;
   font-family: Space Mono;
@@ -244,16 +257,17 @@ input::placeholder {
     margin-top: 105px;
   }
 
-  .bill-input {
+  .inputs {
     width: 379px;
   }
 
-  .tip-persentage-div {
+  .tip-percentage-div {
     width: 117px;
   }
 
   .custom-div {
     padding: 6px 14px;
+    width: 117px;
   }
 
   .tips-container {

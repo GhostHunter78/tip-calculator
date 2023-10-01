@@ -18,33 +18,30 @@
     <div class="white-div">
       <div class="content">
         <p class="bill-word">Bill</p>
+        <p class="error-message billError">Can't be zero</p>
         <form id="fill-in">
           <div class="icon-and-input">
             <img
               class="input-icon dollar-icon"
               src="./assets/icons/icon-dollar.svg"
             />
-            <input type="number" class="bill-input" placeholder="0" />
+            <input type="number" class="inputs bill-input" placeholder="0" />
           </div>
         </form>
         <p class="select-tip">Select Tip %</p>
         <div class="tips-container">
-          <div class="tip-persentage-div">5%</div>
-          <div class="tip-persentage-div">10%</div>
-          <div class="tip-persentage-div">15%</div>
-          <div class="tip-persentage-div">25%</div>
-          <div class="tip-persentage-div">50%</div>
+          <div class="tip-percentage-div five">5%</div>
+          <div class="tip-percentage-div ten">10%</div>
+          <div class="tip-percentage-div fifteen">15%</div>
+          <div class="tip-percentage-div twentyfive">25%</div>
+          <div class="tip-percentage-div fifty">50%</div>
           <form id="fill-in-custom">
-            <input
-              type="number"
-              class="tip-persentage-div custom-div"
-              placeholder="Custom"
-            />
+            <input type="number" class="custom-div" placeholder="Custom" />
           </form>
         </div>
         <div class="numberOf-and-errorMessage">
           <p class="number-of">Number of People</p>
-          <p class="error-message">Can't be zero</p>
+          <p class="error-message numberError">Can't be zero</p>
         </div>
         <form id="fill-in">
           <div class="icon-and-input">
@@ -52,11 +49,7 @@
               class="input-icon person-icon"
               src="./assets/icons/icon-person.svg"
             />
-            <input
-              type="number"
-              class="bill-input people-input"
-              placeholder="0"
-            />
+            <input type="number" class="inputs people-input" placeholder="0" />
           </div>
         </form>
       </div>
@@ -66,14 +59,14 @@
             <p class="tip-amount-word">Tip Amount</p>
             <p class="person-word">/ person</p>
           </div>
-          <p class="tip-amount-result">$0.00</p>
+          <p class="result-number tip-amount-result">$0.00</p>
         </div>
         <div class="tip-amount-div total-div">
           <div class="tip-and-person-words">
             <p class="tip-amount-word">Total</p>
             <p class="person-word">/ person</p>
           </div>
-          <p class="tip-amount-result total-result">$0.00</p>
+          <p class="result-number total-result">$0.00</p>
         </div>
         <button class="reset-button">RESET</button>
       </div>
